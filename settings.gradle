@@ -1,0 +1,23 @@
+pluginManagement {
+    repositories {
+        gradlePluginPortal()
+        mavenCentral()
+    }
+}
+dependencyResolutionManagement {
+    repositoriesMode.set(RepositoriesMode.FAIL_ON_PROJECT_REPOS)
+    repositories {
+        mavenCentral()
+        google()
+        maven { url "https://jitpack.io" }
+
+        // This is the correct, official format for GitHub Packages maven endpoints It hink
+        maven { url "https://github.com" }
+        maven { url "https://github.com" }
+        maven { url "https://github.com" }
+    }
+}
+rootProject.name = "AshenDawn"
+include ':desktop'
+
+include ':game'
