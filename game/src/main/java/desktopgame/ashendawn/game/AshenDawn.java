@@ -37,7 +37,7 @@ public class AshenDawn extends SimpleApplication {
 
     public static void main(String []args){
         AshenDawn game  = new AshenDawn();
-        game.sta
+        game.start();
     }
 
 }
